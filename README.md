@@ -1,2 +1,2 @@
-# opb-projekt
+# Cineplexx
 Projekt pri OPB
