@@ -1,3 +1,3 @@
 # Cineplexx
 Projekt pri OPB
-![ER shema](cineplexx.pdf)
+![ER shema](ERshema.PNG)
