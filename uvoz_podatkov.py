@@ -1,31 +1,31 @@
-import sqlite3
+# uvozimo ustrezne podatke za povezavo
+import auth
+import time
+
+# uvozimo psycopg2
+import psycopg2, psycopg2.extensions, psycopg2.extras
+psycopg2.extensions.register_type(psycopg2.extensions.UNICODE) # se znebimo problemov s šumniki
+
 import csv
 
-baza_datoteka = 'cineplexx.db'
+conn = psycopg2.connect(database=auth.db, host=auth.host, user=auth.user, password=auth.password)
+cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-def uvoziSQL(cur, datoteka):
-    with open(datoteka) as f:
+def uvoziSQL(datoteka):
+    with open("podatki/{}".format(datoteka)) as f:
         koda = f.read()
-        cur.executescript(koda)
+        cur.execute(koda)
+        conn.commit()
 
-#Uvoz preko SQL skript
-with sqlite3.connect(baza_datoteka) as baza:
-    cur = baza.cursor()
-    uvoziSQL(cur, 'cineplexx.sql')
-    uvoziSQL(cur, 'karta.sql')
-    
+#conn = psycopg2.connect(database=auth.db, host=auth.host, user=auth.user, password=auth.password)
+#cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-##def uvoziCSV(cur, tabela):
-##    with open('podatki/{0}.csv'.format(tabela)) as csvfile:
-##        podatki = csv.reader(csvfile)
-##        vsiPodatki = [vrstica for vrstica in podatki]
-##        glava = vsiPodatki[0]
-##        vrstice = vsiPodatki[1:]
-##        cur.executemany("INSERT INTO {0} ({1}) VALUES ({2})".format(
-##            tabela, ",".join(glava), ",".join(['?']*len(glava))), vrstice)
+uvoziSQL('cineplexx.sql')
+uvoziSQL('karta.sql')
+uvoziSQL('film.sql')
+uvoziSQL('prigrizek.sql')
+uvoziSQL('kino.sql')
+uvoziSQL('dvorana.sql')
+uvoziSQL('na_voljo.sql')
 
-with sqlite3.connect(baza_datoteka) as baza:
-    cur = baza.cursor()
-    uvoziSQL(cur, 'cineplexx.sql')
-    #uvoziCSV(cur, 'karta')
 
