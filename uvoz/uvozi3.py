@@ -118,9 +118,9 @@ def uvoziCSV(csv_tabela): # sprejme 'kino', 'karta' ...
                 trenutna_vrstica = () # to bo naš tuple ki bo šel v insert
                 trenutna_vrstica2.append(vrstice[i][j])
                 
-            # tegale se lotmo ker nas zajebe če je v katerem elementu ' saj potem string piše kot ""
+            # tegale se lotmo ker nas ustavi če je v katerem elementu ' saj potem string piše kot ""
             # ko probamo vnest "" v bazo se obesi
-            # če odstranmo ' se lepo spremeni v string ''
+            # če odstranmo ' se lepo spremeni v string '' je pa res da s tem spremenimo ime
             for i in range(len(trenutna_vrstica2)):
                 if "'" in trenutna_vrstica2[i]:
                     trenutna_vrstica2[i] = str((trenutna_vrstica2[i]).replace("'", ""))
