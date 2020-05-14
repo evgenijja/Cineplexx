@@ -1,0 +1,1001 @@
+id,trajanje,tehnologija,osnovna_cena,popust
+1,dolgo in kratko,2d,6.88,student
+2,dolgo in kratko,2d,5.77,dijak in upokojenec in student
+3,dolgo in kratko,2d,8.87,dijak in upokojenjec
+4,kratko,2d in 3d,5.36,student in dijak
+5,dolgo in kratko,2d,9.68,
+6,kratko,2d,5.4,dijak in upokojenec in student
+7,kratko,2d in 3d,2.33,dijak in upokojenjec
+8,dolgo in kratko,2d in 3d,7.13,
+9,dolgo in kratko,2d,4.99,
+10,dolgo in kratko,2d in 3d,4.75,upokojenec
+11,kratko,2d in 3d,5.63,student in upokojenec
+12,dolgo in kratko,2d in 3d,4.8,dijak in upokojenec in student
+13,kratko,2d,6.62,dijak in upokojenjec
+14,kratko,2d in 3d,9.81,upokojenec
+15,dolgo in kratko,2d in 3d,4.71,student in upokojenec
+16,kratko,2d in 3d,1.09,
+17,kratko,2d,4.48,
+18,kratko,2d,6.77,
+19,kratko,2d in 3d,6.48,
+20,dolgo in kratko,2d,7.11,
+21,kratko,2d,4.6,
+22,kratko,2d in 3d,7.24,
+23,dolgo in kratko,2d,6.4,dijak in upokojenec in student
+24,dolgo in kratko,2d in 3d,8.62,
+25,dolgo in kratko,2d,5.26,
+26,kratko,2d,4.41,
+27,dolgo in kratko,2d in 3d,1.82,
+28,kratko,2d,8.23,
+29,dolgo in kratko,2d in 3d,8.04,dijak in upokojenec in student
+30,kratko,2d in 3d,6.26,
+31,dolgo in kratko,2d in 3d,8.39,
+32,dolgo in kratko,2d,7.11,
+33,kratko,2d,7.06,
+34,dolgo in kratko,2d in 3d,6.2,
+35,dolgo in kratko,2d in 3d,9.32,upokojenec
+36,kratko,2d,6.74,student
+37,kratko,2d,5.28,
+38,kratko,2d in 3d,2.73,
+39,dolgo in kratko,2d in 3d,3.24,
+40,dolgo in kratko,2d,6.69,upokojenec
+41,kratko,2d in 3d,8.82,
+42,dolgo in kratko,2d in 3d,4.94,dijak in upokojenec in student
+43,kratko,2d,1.41,student
+44,kratko,2d,7.45,dijak
+45,kratko,2d in 3d,1.96,
+46,kratko,2d,3.57,
+47,kratko,2d,3.18,
+48,dolgo in kratko,2d,7.57,student
+49,kratko,2d in 3d,9.31,
+50,dolgo in kratko,2d,9.04,student
+51,kratko,2d in 3d,3.23,dijak in upokojenjec
+52,kratko,2d,1.11,
+53,dolgo in kratko,2d in 3d,8.34,dijak
+54,kratko,2d,4.55,
+55,dolgo in kratko,2d,7.79,
+56,dolgo in kratko,2d in 3d,3.26,student
+57,dolgo in kratko,2d in 3d,9.12,student
+58,dolgo in kratko,2d in 3d,3.98,student in upokojenec
+59,kratko,2d in 3d,6.2,
+60,kratko,2d in 3d,9.21,dijak in upokojenjec
+61,dolgo in kratko,2d,3.79,
+62,kratko,2d,4.89,upokojenec
+63,dolgo in kratko,2d,1.03,
+64,dolgo in kratko,2d in 3d,4.54,
+65,kratko,2d in 3d,8.23,
+66,kratko,2d in 3d,3.48,student in upokojenec
+67,kratko,2d,8.18,
+68,dolgo in kratko,2d,1.68,student in dijak
+69,dolgo in kratko,2d in 3d,8.32,
+70,dolgo in kratko,2d,1.96,
+71,dolgo in kratko,2d,7.9,
+72,kratko,2d in 3d,9.7,
+73,dolgo in kratko,2d,3.92,
+74,kratko,2d,9.52,
+75,kratko,2d in 3d,4.97,student in dijak
+76,dolgo in kratko,2d in 3d,7.64,dijak in upokojenjec
+77,dolgo in kratko,2d,1.39,dijak in upokojenjec
+78,dolgo in kratko,2d in 3d,5.47,
+79,dolgo in kratko,2d,2.91,upokojenec
+80,dolgo in kratko,2d in 3d,6.36,student
+81,kratko,2d in 3d,8.52,
+82,kratko,2d,2.72,dijak in upokojenec in student
+83,dolgo in kratko,2d,6.84,
+84,dolgo in kratko,2d in 3d,4.3,
+85,kratko,2d,5.48,
+86,kratko,2d,8.62,
+87,dolgo in kratko,2d in 3d,9.94,student
+88,dolgo in kratko,2d,9.05,
+89,dolgo in kratko,2d in 3d,9.28,upokojenec
+90,dolgo in kratko,2d,6.72,upokojenec
+91,dolgo in kratko,2d,2.5,upokojenec
+92,dolgo in kratko,2d,4.94,
+93,dolgo in kratko,2d,5.0,
+94,kratko,2d in 3d,3.1,
+95,kratko,2d in 3d,3.96,student in upokojenec
+96,dolgo in kratko,2d,6.34,
+97,dolgo in kratko,2d in 3d,9.14,student in upokojenec
+98,kratko,2d,6.5,upokojenec
+99,dolgo in kratko,2d,5.81,
+100,kratko,2d,3.32,
+101,dolgo in kratko,2d,7.0,student in dijak
+102,dolgo in kratko,2d,9.86,student
+103,dolgo in kratko,2d in 3d,4.04,
+104,kratko,2d in 3d,8.43,
+105,kratko,2d in 3d,2.69,dijak in upokojenec in student
+106,dolgo in kratko,2d,4.58,dijak
+107,kratko,2d in 3d,4.22,
+108,dolgo in kratko,2d in 3d,8.93,student
+109,kratko,2d,4.43,
+110,dolgo in kratko,2d,4.7,dijak in upokojenjec
+111,kratko,2d,2.02,
+112,kratko,2d,3.97,student
+113,kratko,2d in 3d,2.09,
+114,kratko,2d in 3d,1.19,
+115,dolgo in kratko,2d in 3d,4.0,
+116,kratko,2d in 3d,3.54,
+117,kratko,2d,5.29,dijak in upokojenjec
+118,kratko,2d in 3d,2.64,upokojenec
+119,kratko,2d in 3d,8.03,
+120,dolgo in kratko,2d in 3d,4.39,
+121,kratko,2d,3.42,
+122,dolgo in kratko,2d,6.45,student
+123,kratko,2d in 3d,8.64,
+124,kratko,2d in 3d,1.35,
+125,kratko,2d,6.15,student in upokojenec
+126,dolgo in kratko,2d,7.75,upokojenec
+127,dolgo in kratko,2d,1.1,student in upokojenec
+128,kratko,2d in 3d,1.9,student in dijak
+129,dolgo in kratko,2d,2.8,
+130,kratko,2d in 3d,4.21,student in dijak
+131,kratko,2d,4.71,student in upokojenec
+132,dolgo in kratko,2d in 3d,2.24,
+133,kratko,2d in 3d,9.6,
+134,dolgo in kratko,2d in 3d,9.1,dijak in upokojenjec
+135,dolgo in kratko,2d,9.8,upokojenec
+136,dolgo in kratko,2d in 3d,9.96,dijak in upokojenec in student
+137,dolgo in kratko,2d,9.26,
+138,dolgo in kratko,2d in 3d,2.67,upokojenec
+139,kratko,2d in 3d,2.45,
+140,dolgo in kratko,2d,2.68,
+141,kratko,2d in 3d,2.0,student in upokojenec
+142,kratko,2d,6.51,
+143,kratko,2d in 3d,6.47,student in upokojenec
+144,dolgo in kratko,2d,7.35,
+145,dolgo in kratko,2d in 3d,3.65,student in upokojenec
+146,kratko,2d in 3d,8.08,student in dijak
+147,kratko,2d in 3d,9.77,student in dijak
+148,dolgo in kratko,2d in 3d,3.46,dijak in upokojenjec
+149,dolgo in kratko,2d,6.42,
+150,dolgo in kratko,2d,8.04,dijak in upokojenjec
+151,dolgo in kratko,2d in 3d,9.44,
+152,kratko,2d,3.57,student
+153,kratko,2d in 3d,9.54,
+154,kratko,2d,8.13,
+155,kratko,2d in 3d,8.52,
+156,kratko,2d,8.32,dijak
+157,dolgo in kratko,2d in 3d,4.4,student in upokojenec
+158,kratko,2d in 3d,9.6,student
+159,kratko,2d in 3d,7.77,student
+160,dolgo in kratko,2d in 3d,8.72,dijak in upokojenjec
+161,kratko,2d in 3d,3.63,
+162,kratko,2d,7.08,
+163,kratko,2d,8.31,
+164,dolgo in kratko,2d,7.85,student in dijak
+165,kratko,2d in 3d,8.46,student in upokojenec
+166,kratko,2d in 3d,5.41,
+167,dolgo in kratko,2d in 3d,3.47,dijak in upokojenjec
+168,kratko,2d in 3d,4.27,dijak in upokojenjec
+169,kratko,2d,7.36,
+170,dolgo in kratko,2d in 3d,5.78,dijak
+171,dolgo in kratko,2d in 3d,6.86,
+172,dolgo in kratko,2d in 3d,2.97,
+173,dolgo in kratko,2d,8.55,
+174,kratko,2d in 3d,4.95,student in dijak
+175,dolgo in kratko,2d in 3d,1.4,
+176,kratko,2d,1.45,
+177,dolgo in kratko,2d,9.56,
+178,dolgo in kratko,2d,3.34,student
+179,kratko,2d in 3d,5.12,student in dijak
+180,dolgo in kratko,2d in 3d,9.69,
+181,kratko,2d in 3d,7.21,upokojenec
+182,dolgo in kratko,2d in 3d,3.06,student
+183,kratko,2d in 3d,9.49,
+184,dolgo in kratko,2d in 3d,1.91,student
+185,kratko,2d,7.07,
+186,dolgo in kratko,2d in 3d,6.59,dijak in upokojenjec
+187,kratko,2d in 3d,5.24,
+188,kratko,2d,8.2,student in dijak
+189,kratko,2d,1.37,student in upokojenec
+190,dolgo in kratko,2d in 3d,9.39,dijak in upokojenec in student
+191,dolgo in kratko,2d in 3d,5.13,
+192,kratko,2d,7.7,
+193,kratko,2d in 3d,8.83,dijak
+194,kratko,2d,4.78,student in dijak
+195,dolgo in kratko,2d in 3d,2.37,student in upokojenec
+196,kratko,2d in 3d,7.83,
+197,kratko,2d,8.65,
+198,dolgo in kratko,2d in 3d,9.52,upokojenec
+199,kratko,2d in 3d,6.86,dijak in upokojenjec
+200,kratko,2d in 3d,6.3,
+201,kratko,2d,3.13,student in dijak
+202,kratko,2d,3.05,
+203,kratko,2d,5.28,student in upokojenec
+204,kratko,2d in 3d,9.35,
+205,kratko,2d in 3d,3.14,
+206,kratko,2d in 3d,1.52,
+207,dolgo in kratko,2d in 3d,8.55,dijak in upokojenjec
+208,kratko,2d in 3d,5.4,
+209,kratko,2d,5.23,
+210,dolgo in kratko,2d in 3d,1.86,
+211,dolgo in kratko,2d,4.45,
+212,dolgo in kratko,2d,1.35,
+213,dolgo in kratko,2d,9.48,
+214,kratko,2d,3.46,
+215,kratko,2d,5.29,
+216,kratko,2d in 3d,9.01,
+217,kratko,2d,7.69,dijak
+218,kratko,2d in 3d,3.38,
+219,dolgo in kratko,2d,7.57,
+220,kratko,2d,8.9,
+221,dolgo in kratko,2d,5.96,
+222,kratko,2d in 3d,1.36,
+223,kratko,2d in 3d,4.91,upokojenec
+224,kratko,2d,2.68,
+225,dolgo in kratko,2d in 3d,8.52,
+226,dolgo in kratko,2d,4.9,
+227,kratko,2d,2.2,dijak
+228,kratko,2d in 3d,5.91,student in upokojenec
+229,dolgo in kratko,2d in 3d,5.46,student
+230,dolgo in kratko,2d,5.07,
+231,kratko,2d,3.59,
+232,kratko,2d in 3d,3.43,
+233,dolgo in kratko,2d in 3d,1.74,
+234,kratko,2d,2.68,
+235,kratko,2d in 3d,2.66,dijak in upokojenec in student
+236,dolgo in kratko,2d,4.99,dijak
+237,kratko,2d in 3d,7.06,upokojenec
+238,dolgo in kratko,2d in 3d,4.46,
+239,dolgo in kratko,2d,9.4,student in upokojenec
+240,dolgo in kratko,2d in 3d,4.62,
+241,dolgo in kratko,2d in 3d,3.05,
+242,kratko,2d in 3d,4.98,
+243,kratko,2d,9.72,
+244,kratko,2d,8.06,student
+245,kratko,2d in 3d,1.33,student in upokojenec
+246,kratko,2d in 3d,3.41,dijak in upokojenjec
+247,kratko,2d in 3d,6.22,
+248,dolgo in kratko,2d in 3d,9.31,
+249,dolgo in kratko,2d,5.45,student
+250,kratko,2d,8.61,
+251,kratko,2d,2.19,
+252,dolgo in kratko,2d,9.37,
+253,kratko,2d in 3d,4.02,dijak in upokojenjec
+254,dolgo in kratko,2d,9.21,
+255,kratko,2d,2.59,student in upokojenec
+256,dolgo in kratko,2d,2.68,
+257,dolgo in kratko,2d,2.51,dijak
+258,dolgo in kratko,2d in 3d,1.15,
+259,kratko,2d in 3d,8.59,dijak in upokojenec in student
+260,dolgo in kratko,2d in 3d,2.82,dijak in upokojenec in student
+261,kratko,2d,8.05,
+262,dolgo in kratko,2d in 3d,2.83,upokojenec
+263,dolgo in kratko,2d in 3d,8.09,
+264,kratko,2d,8.05,upokojenec
+265,dolgo in kratko,2d,8.08,
+266,kratko,2d in 3d,1.1,
+267,dolgo in kratko,2d,4.49,dijak
+268,kratko,2d,9.21,dijak in upokojenjec
+269,kratko,2d in 3d,2.99,student
+270,dolgo in kratko,2d in 3d,7.28,dijak in upokojenec in student
+271,dolgo in kratko,2d in 3d,2.28,
+272,dolgo in kratko,2d in 3d,3.88,
+273,dolgo in kratko,2d,7.57,student
+274,dolgo in kratko,2d in 3d,7.72,dijak
+275,dolgo in kratko,2d in 3d,7.6,
+276,dolgo in kratko,2d,5.78,
+277,kratko,2d,4.99,
+278,kratko,2d in 3d,6.97,
+279,kratko,2d in 3d,9.23,
+280,dolgo in kratko,2d,9.22,dijak in upokojenec in student
+281,dolgo in kratko,2d in 3d,6.83,
+282,kratko,2d in 3d,2.01,student
+283,dolgo in kratko,2d in 3d,6.49,dijak in upokojenec in student
+284,kratko,2d,3.25,student in upokojenec
+285,kratko,2d in 3d,7.89,
+286,dolgo in kratko,2d in 3d,4.27,student in dijak
+287,kratko,2d in 3d,2.18,student in upokojenec
+288,kratko,2d in 3d,4.8,
+289,dolgo in kratko,2d,5.0,
+290,kratko,2d,6.8,
+291,dolgo in kratko,2d,7.53,
+292,dolgo in kratko,2d,3.41,student in dijak
+293,kratko,2d,3.81,student in dijak
+294,kratko,2d,2.41,student
+295,kratko,2d,7.25,
+296,dolgo in kratko,2d in 3d,7.86,student in upokojenec
+297,kratko,2d in 3d,2.38,
+298,kratko,2d,6.64,dijak in upokojenec in student
+299,kratko,2d,4.92,
+300,kratko,2d,7.71,
+301,kratko,2d in 3d,6.29,dijak
+302,kratko,2d,8.28,dijak in upokojenjec
+303,dolgo in kratko,2d in 3d,5.73,dijak in upokojenec in student
+304,kratko,2d,9.79,student in dijak
+305,dolgo in kratko,2d,5.39,
+306,kratko,2d,4.46,upokojenec
+307,kratko,2d,2.66,upokojenec
+308,dolgo in kratko,2d,2.45,upokojenec
+309,dolgo in kratko,2d in 3d,8.28,student
+310,dolgo in kratko,2d,8.79,dijak in upokojenec in student
+311,kratko,2d in 3d,9.52,
+312,dolgo in kratko,2d,2.4,dijak in upokojenec in student
+313,dolgo in kratko,2d in 3d,6.31,dijak in upokojenjec
+314,dolgo in kratko,2d,6.7,dijak
+315,kratko,2d in 3d,6.77,
+316,kratko,2d in 3d,1.61,dijak
+317,dolgo in kratko,2d in 3d,5.17,
+318,dolgo in kratko,2d in 3d,2.65,
+319,dolgo in kratko,2d in 3d,5.41,
+320,kratko,2d in 3d,6.23,
+321,dolgo in kratko,2d,1.16,dijak in upokojenec in student
+322,kratko,2d in 3d,3.03,student in upokojenec
+323,kratko,2d in 3d,6.62,student in dijak
+324,kratko,2d in 3d,6.66,dijak in upokojenec in student
+325,dolgo in kratko,2d,4.41,upokojenec
+326,kratko,2d,9.89,
+327,kratko,2d,5.42,student in dijak
+328,dolgo in kratko,2d in 3d,3.43,
+329,kratko,2d in 3d,1.56,
+330,kratko,2d,7.92,
+331,kratko,2d,4.54,
+332,dolgo in kratko,2d in 3d,3.85,student in dijak
+333,dolgo in kratko,2d,1.77,student
+334,kratko,2d,6.18,student in dijak
+335,kratko,2d in 3d,5.98,student in upokojenec
+336,kratko,2d in 3d,8.65,student in upokojenec
+337,kratko,2d,1.42,upokojenec
+338,kratko,2d,3.15,
+339,dolgo in kratko,2d,5.23,
+340,dolgo in kratko,2d,5.12,
+341,dolgo in kratko,2d in 3d,5.83,
+342,kratko,2d in 3d,3.01,
+343,dolgo in kratko,2d in 3d,4.21,student
+344,kratko,2d,9.59,
+345,dolgo in kratko,2d,6.22,
+346,dolgo in kratko,2d in 3d,7.61,
+347,dolgo in kratko,2d,9.92,student
+348,dolgo in kratko,2d,4.37,
+349,kratko,2d,6.86,dijak in upokojenjec
+350,kratko,2d,9.54,
+351,kratko,2d in 3d,9.78,
+352,dolgo in kratko,2d in 3d,3.23,
+353,dolgo in kratko,2d,5.26,dijak in upokojenec in student
+354,dolgo in kratko,2d in 3d,4.09,student in upokojenec
+355,dolgo in kratko,2d in 3d,6.05,dijak in upokojenjec
+356,dolgo in kratko,2d,3.83,dijak in upokojenec in student
+357,dolgo in kratko,2d in 3d,9.21,student in upokojenec
+358,dolgo in kratko,2d in 3d,6.5,
+359,dolgo in kratko,2d,6.57,student
+360,kratko,2d,3.53,
+361,kratko,2d,4.95,
+362,kratko,2d,4.08,
+363,kratko,2d in 3d,3.28,dijak in upokojenjec
+364,kratko,2d in 3d,8.96,dijak in upokojenjec
+365,kratko,2d in 3d,6.62,dijak in upokojenjec
+366,dolgo in kratko,2d,9.4,upokojenec
+367,kratko,2d,8.36,
+368,kratko,2d,4.85,
+369,kratko,2d in 3d,8.31,upokojenec
+370,kratko,2d,7.18,
+371,dolgo in kratko,2d in 3d,5.5,
+372,kratko,2d in 3d,4.0,
+373,kratko,2d,8.22,
+374,kratko,2d in 3d,9.8,dijak in upokojenec in student
+375,kratko,2d,6.77,student in upokojenec
+376,dolgo in kratko,2d in 3d,6.88,
+377,dolgo in kratko,2d,3.02,
+378,dolgo in kratko,2d,3.71,
+379,dolgo in kratko,2d,9.28,
+380,dolgo in kratko,2d,2.89,dijak in upokojenjec
+381,dolgo in kratko,2d,2.56,
+382,kratko,2d,1.4,
+383,dolgo in kratko,2d in 3d,6.32,
+384,dolgo in kratko,2d in 3d,7.67,student in dijak
+385,kratko,2d,7.3,
+386,kratko,2d,1.99,dijak in upokojenjec
+387,dolgo in kratko,2d in 3d,6.94,
+388,kratko,2d,1.0,
+389,kratko,2d,6.13,
+390,kratko,2d in 3d,4.77,student
+391,dolgo in kratko,2d,6.3,
+392,dolgo in kratko,2d in 3d,8.86,student in dijak
+393,kratko,2d,4.78,
+394,kratko,2d,1.03,student in dijak
+395,dolgo in kratko,2d,9.84,student in upokojenec
+396,kratko,2d,8.26,
+397,kratko,2d in 3d,4.39,
+398,dolgo in kratko,2d in 3d,7.07,student in dijak
+399,dolgo in kratko,2d in 3d,8.5,
+400,dolgo in kratko,2d,7.88,dijak in upokojenjec
+401,dolgo in kratko,2d,2.91,
+402,dolgo in kratko,2d,3.91,dijak in upokojenec in student
+403,dolgo in kratko,2d,8.58,student in upokojenec
+404,kratko,2d in 3d,9.17,upokojenec
+405,kratko,2d in 3d,2.53,student
+406,dolgo in kratko,2d in 3d,5.15,
+407,kratko,2d,7.06,
+408,dolgo in kratko,2d in 3d,1.35,
+409,dolgo in kratko,2d,7.19,upokojenec
+410,dolgo in kratko,2d in 3d,6.35,
+411,dolgo in kratko,2d in 3d,7.66,
+412,kratko,2d in 3d,5.88,student in dijak
+413,dolgo in kratko,2d in 3d,6.12,
+414,dolgo in kratko,2d in 3d,2.42,
+415,dolgo in kratko,2d,4.92,
+416,dolgo in kratko,2d,2.14,dijak in upokojenec in student
+417,kratko,2d,8.54,
+418,kratko,2d,9.66,
+419,kratko,2d in 3d,10.0,
+420,kratko,2d in 3d,2.15,
+421,kratko,2d in 3d,5.88,
+422,dolgo in kratko,2d,9.1,student in dijak
+423,kratko,2d in 3d,1.59,upokojenec
+424,dolgo in kratko,2d,1.86,dijak in upokojenec in student
+425,kratko,2d in 3d,2.4,dijak in upokojenec in student
+426,dolgo in kratko,2d,1.58,
+427,kratko,2d in 3d,6.71,
+428,dolgo in kratko,2d in 3d,9.37,
+429,dolgo in kratko,2d,1.41,dijak in upokojenec in student
+430,dolgo in kratko,2d in 3d,7.75,
+431,dolgo in kratko,2d,1.13,dijak
+432,dolgo in kratko,2d,9.93,
+433,kratko,2d in 3d,2.71,dijak
+434,kratko,2d in 3d,8.33,dijak in upokojenec in student
+435,dolgo in kratko,2d,9.49,
+436,dolgo in kratko,2d,3.86,
+437,dolgo in kratko,2d,6.43,student in dijak
+438,dolgo in kratko,2d in 3d,7.39,
+439,kratko,2d in 3d,4.88,
+440,kratko,2d,3.61,
+441,kratko,2d,8.44,
+442,dolgo in kratko,2d in 3d,2.51,
+443,dolgo in kratko,2d,5.37,student
+444,kratko,2d,2.18,dijak in upokojenec in student
+445,kratko,2d in 3d,4.14,
+446,dolgo in kratko,2d,6.55,dijak in upokojenec in student
+447,kratko,2d,1.07,
+448,dolgo in kratko,2d,8.95,
+449,kratko,2d in 3d,6.69,student in upokojenec
+450,kratko,2d,4.59,
+451,dolgo in kratko,2d,1.53,student in dijak
+452,dolgo in kratko,2d in 3d,1.73,
+453,kratko,2d in 3d,4.99,upokojenec
+454,kratko,2d in 3d,8.5,student in dijak
+455,kratko,2d in 3d,7.95,student in upokojenec
+456,kratko,2d in 3d,1.02,student
+457,dolgo in kratko,2d,6.57,
+458,kratko,2d in 3d,1.27,
+459,dolgo in kratko,2d,9.2,student in upokojenec
+460,kratko,2d,4.43,student in upokojenec
+461,kratko,2d in 3d,7.27,
+462,kratko,2d,1.24,
+463,kratko,2d in 3d,6.0,dijak
+464,kratko,2d in 3d,2.78,
+465,kratko,2d in 3d,3.87,dijak in upokojenec in student
+466,dolgo in kratko,2d,7.58,
+467,dolgo in kratko,2d in 3d,3.93,
+468,kratko,2d,2.64,
+469,kratko,2d,2.77,
+470,kratko,2d in 3d,3.05,
+471,kratko,2d in 3d,2.46,
+472,dolgo in kratko,2d,9.25,
+473,kratko,2d in 3d,4.51,student in dijak
+474,kratko,2d in 3d,1.4,
+475,kratko,2d in 3d,6.26,dijak in upokojenjec
+476,dolgo in kratko,2d in 3d,8.97,dijak
+477,kratko,2d,1.23,
+478,kratko,2d in 3d,5.27,student in dijak
+479,dolgo in kratko,2d in 3d,8.17,
+480,kratko,2d in 3d,3.98,dijak in upokojenjec
+481,kratko,2d in 3d,3.89,dijak in upokojenec in student
+482,kratko,2d,5.21,dijak
+483,kratko,2d in 3d,4.49,
+484,kratko,2d,9.19,
+485,dolgo in kratko,2d,4.98,dijak in upokojenec in student
+486,dolgo in kratko,2d in 3d,8.33,
+487,dolgo in kratko,2d in 3d,7.56,
+488,dolgo in kratko,2d,1.25,student
+489,kratko,2d,1.94,student in dijak
+490,kratko,2d,3.02,upokojenec
+491,dolgo in kratko,2d in 3d,9.64,
+492,kratko,2d in 3d,1.15,
+493,dolgo in kratko,2d,1.12,dijak
+494,kratko,2d,4.95,dijak in upokojenjec
+495,dolgo in kratko,2d,9.42,dijak in upokojenjec
+496,dolgo in kratko,2d,8.84,upokojenec
+497,dolgo in kratko,2d,1.68,
+498,dolgo in kratko,2d in 3d,2.68,
+499,dolgo in kratko,2d in 3d,6.36,
+500,kratko,2d,5.23,
+501,dolgo in kratko,2d in 3d,6.89,student in dijak
+502,kratko,2d in 3d,1.71,
+503,dolgo in kratko,2d in 3d,4.22,
+504,dolgo in kratko,2d in 3d,9.12,dijak
+505,dolgo in kratko,2d in 3d,5.85,
+506,kratko,2d,9.89,
+507,dolgo in kratko,2d in 3d,7.33,upokojenec
+508,kratko,2d in 3d,2.06,upokojenec
+509,kratko,2d in 3d,4.55,
+510,kratko,2d in 3d,3.11,dijak in upokojenjec
+511,dolgo in kratko,2d in 3d,8.67,
+512,kratko,2d in 3d,4.82,
+513,dolgo in kratko,2d in 3d,8.08,
+514,dolgo in kratko,2d in 3d,4.63,student in dijak
+515,dolgo in kratko,2d in 3d,6.6,
+516,dolgo in kratko,2d,3.25,
+517,dolgo in kratko,2d in 3d,6.6,dijak in upokojenec in student
+518,kratko,2d,7.58,
+519,kratko,2d in 3d,9.08,
+520,kratko,2d in 3d,1.7,
+521,kratko,2d,9.32,
+522,dolgo in kratko,2d in 3d,2.16,upokojenec
+523,kratko,2d in 3d,7.93,dijak
+524,dolgo in kratko,2d,9.8,
+525,kratko,2d in 3d,5.98,dijak in upokojenjec
+526,kratko,2d in 3d,4.48,
+527,kratko,2d,1.66,dijak in upokojenec in student
+528,dolgo in kratko,2d in 3d,7.84,student in dijak
+529,dolgo in kratko,2d,9.32,
+530,kratko,2d in 3d,6.59,student in upokojenec
+531,kratko,2d in 3d,6.57,
+532,dolgo in kratko,2d in 3d,1.62,student
+533,dolgo in kratko,2d in 3d,6.12,
+534,dolgo in kratko,2d in 3d,2.84,dijak in upokojenec in student
+535,kratko,2d,4.72,
+536,kratko,2d in 3d,7.93,
+537,kratko,2d in 3d,5.37,
+538,dolgo in kratko,2d in 3d,7.82,dijak in upokojenjec
+539,kratko,2d,9.45,dijak
+540,kratko,2d,8.89,
+541,kratko,2d,7.79,
+542,dolgo in kratko,2d in 3d,3.74,
+543,dolgo in kratko,2d,8.76,upokojenec
+544,dolgo in kratko,2d in 3d,3.1,student in dijak
+545,dolgo in kratko,2d in 3d,3.47,
+546,dolgo in kratko,2d in 3d,7.05,student in dijak
+547,dolgo in kratko,2d in 3d,2.29,
+548,dolgo in kratko,2d,2.85,student
+549,dolgo in kratko,2d,4.74,dijak in upokojenjec
+550,kratko,2d in 3d,5.41,upokojenec
+551,kratko,2d,9.87,
+552,dolgo in kratko,2d in 3d,1.49,student in upokojenec
+553,dolgo in kratko,2d,5.35,
+554,kratko,2d,8.99,student in upokojenec
+555,kratko,2d,2.0,student in upokojenec
+556,kratko,2d in 3d,8.23,upokojenec
+557,dolgo in kratko,2d in 3d,2.19,
+558,dolgo in kratko,2d,8.96,dijak
+559,dolgo in kratko,2d,2.6,
+560,kratko,2d,2.45,
+561,kratko,2d,4.08,student
+562,kratko,2d in 3d,4.81,
+563,kratko,2d,3.91,
+564,dolgo in kratko,2d,4.28,dijak in upokojenec in student
+565,dolgo in kratko,2d,6.01,dijak in upokojenec in student
+566,dolgo in kratko,2d in 3d,3.89,
+567,kratko,2d in 3d,8.72,
+568,dolgo in kratko,2d in 3d,8.31,dijak in upokojenjec
+569,dolgo in kratko,2d,3.74,
+570,kratko,2d,2.33,
+571,dolgo in kratko,2d in 3d,2.48,student in dijak
+572,kratko,2d in 3d,4.69,
+573,dolgo in kratko,2d in 3d,4.46,
+574,kratko,2d,6.99,student in upokojenec
+575,kratko,2d in 3d,1.04,dijak
+576,dolgo in kratko,2d in 3d,7.72,dijak in upokojenjec
+577,dolgo in kratko,2d,1.33,student in upokojenec
+578,dolgo in kratko,2d,2.85,upokojenec
+579,kratko,2d in 3d,6.33,
+580,dolgo in kratko,2d,2.96,
+581,kratko,2d,5.24,dijak
+582,kratko,2d in 3d,2.82,
+583,dolgo in kratko,2d,3.5,upokojenec
+584,dolgo in kratko,2d,1.64,dijak in upokojenjec
+585,kratko,2d in 3d,1.74,
+586,kratko,2d,1.65,
+587,kratko,2d in 3d,9.34,
+588,dolgo in kratko,2d in 3d,9.0,
+589,dolgo in kratko,2d in 3d,5.7,dijak in upokojenjec
+590,kratko,2d,9.13,
+591,dolgo in kratko,2d,1.77,dijak in upokojenjec
+592,dolgo in kratko,2d,6.87,student
+593,dolgo in kratko,2d in 3d,8.99,dijak in upokojenec in student
+594,dolgo in kratko,2d in 3d,9.06,student
+595,dolgo in kratko,2d in 3d,9.78,dijak in upokojenec in student
+596,dolgo in kratko,2d in 3d,3.29,dijak in upokojenec in student
+597,kratko,2d in 3d,9.11,
+598,kratko,2d in 3d,8.54,student
+599,kratko,2d in 3d,5.8,
+600,kratko,2d,9.29,
+601,dolgo in kratko,2d,7.4,
+602,kratko,2d in 3d,7.87,student in dijak
+603,kratko,2d in 3d,1.41,dijak in upokojenjec
+604,dolgo in kratko,2d,7.81,
+605,dolgo in kratko,2d in 3d,9.64,
+606,kratko,2d in 3d,8.1,
+607,dolgo in kratko,2d in 3d,7.25,student in dijak
+608,dolgo in kratko,2d in 3d,3.93,
+609,kratko,2d,7.3,student in upokojenec
+610,dolgo in kratko,2d,3.82,
+611,dolgo in kratko,2d in 3d,3.6,
+612,kratko,2d,8.6,student in dijak
+613,kratko,2d,8.32,dijak
+614,kratko,2d in 3d,5.48,
+615,kratko,2d,7.77,student
+616,dolgo in kratko,2d in 3d,8.49,
+617,kratko,2d,9.13,student
+618,kratko,2d,4.4,dijak in upokojenec in student
+619,kratko,2d in 3d,9.51,
+620,dolgo in kratko,2d in 3d,2.06,
+621,dolgo in kratko,2d in 3d,6.45,
+622,kratko,2d in 3d,1.36,
+623,kratko,2d,4.33,upokojenec
+624,kratko,2d in 3d,4.63,
+625,kratko,2d,8.18,
+626,dolgo in kratko,2d in 3d,3.12,
+627,dolgo in kratko,2d in 3d,1.35,student in dijak
+628,kratko,2d in 3d,3.63,dijak
+629,kratko,2d in 3d,1.91,dijak in upokojenjec
+630,kratko,2d,1.35,
+631,kratko,2d in 3d,6.31,student in dijak
+632,kratko,2d in 3d,6.12,
+633,kratko,2d in 3d,7.85,
+634,kratko,2d in 3d,1.0,dijak
+635,kratko,2d in 3d,7.49,student in dijak
+636,dolgo in kratko,2d,7.88,
+637,kratko,2d in 3d,1.98,upokojenec
+638,kratko,2d in 3d,8.03,dijak
+639,dolgo in kratko,2d,3.05,dijak in upokojenec in student
+640,dolgo in kratko,2d in 3d,4.94,
+641,dolgo in kratko,2d in 3d,5.07,student in upokojenec
+642,kratko,2d in 3d,3.02,student
+643,dolgo in kratko,2d,6.5,dijak
+644,dolgo in kratko,2d,9.05,
+645,kratko,2d,7.64,
+646,dolgo in kratko,2d in 3d,6.6,
+647,kratko,2d,7.26,student in upokojenec
+648,kratko,2d in 3d,3.38,student in upokojenec
+649,dolgo in kratko,2d in 3d,4.63,
+650,dolgo in kratko,2d in 3d,9.13,dijak in upokojenjec
+651,dolgo in kratko,2d in 3d,8.47,
+652,dolgo in kratko,2d,2.17,
+653,kratko,2d in 3d,9.05,dijak in upokojenec in student
+654,kratko,2d in 3d,6.63,
+655,dolgo in kratko,2d in 3d,9.9,upokojenec
+656,dolgo in kratko,2d in 3d,4.5,
+657,kratko,2d,5.13,dijak
+658,kratko,2d,7.75,
+659,dolgo in kratko,2d,2.42,student in upokojenec
+660,dolgo in kratko,2d,4.42,
+661,kratko,2d in 3d,4.05,upokojenec
+662,kratko,2d,8.06,
+663,dolgo in kratko,2d,9.98,
+664,kratko,2d,7.14,dijak in upokojenec in student
+665,dolgo in kratko,2d,7.51,student in upokojenec
+666,kratko,2d in 3d,3.35,
+667,dolgo in kratko,2d,4.49,
+668,kratko,2d in 3d,6.41,
+669,dolgo in kratko,2d in 3d,9.26,dijak in upokojenjec
+670,kratko,2d in 3d,1.29,student in upokojenec
+671,kratko,2d,4.96,
+672,dolgo in kratko,2d in 3d,2.2,
+673,kratko,2d in 3d,7.53,
+674,kratko,2d,9.62,dijak
+675,dolgo in kratko,2d in 3d,1.98,
+676,kratko,2d,9.36,student in upokojenec
+677,dolgo in kratko,2d in 3d,3.83,student in upokojenec
+678,dolgo in kratko,2d in 3d,4.6,
+679,kratko,2d,4.6,
+680,kratko,2d,9.22,
+681,dolgo in kratko,2d in 3d,8.19,
+682,dolgo in kratko,2d,9.71,
+683,kratko,2d in 3d,4.76,student
+684,dolgo in kratko,2d,9.25,dijak in upokojenjec
+685,dolgo in kratko,2d,4.41,dijak
+686,kratko,2d in 3d,4.82,student
+687,kratko,2d in 3d,9.06,
+688,kratko,2d,1.94,
+689,kratko,2d in 3d,2.29,
+690,dolgo in kratko,2d in 3d,5.01,
+691,dolgo in kratko,2d in 3d,9.52,
+692,kratko,2d in 3d,1.98,
+693,kratko,2d in 3d,5.7,student in upokojenec
+694,dolgo in kratko,2d in 3d,9.06,dijak
+695,dolgo in kratko,2d,9.02,
+696,kratko,2d,8.17,dijak in upokojenec in student
+697,kratko,2d,8.85,
+698,dolgo in kratko,2d,1.47,dijak in upokojenec in student
+699,dolgo in kratko,2d,1.02,
+700,dolgo in kratko,2d,7.07,student in dijak
+701,kratko,2d in 3d,7.49,upokojenec
+702,dolgo in kratko,2d in 3d,3.49,student in dijak
+703,kratko,2d in 3d,6.83,dijak
+704,dolgo in kratko,2d in 3d,4.49,student in dijak
+705,kratko,2d,6.23,
+706,dolgo in kratko,2d,2.55,
+707,kratko,2d,8.65,
+708,kratko,2d,3.23,
+709,kratko,2d,5.47,
+710,kratko,2d,2.61,student
+711,kratko,2d in 3d,3.91,
+712,dolgo in kratko,2d,9.62,
+713,dolgo in kratko,2d in 3d,2.02,dijak in upokojenec in student
+714,dolgo in kratko,2d in 3d,7.24,
+715,kratko,2d,8.23,
+716,kratko,2d,2.99,
+717,kratko,2d,7.32,student in dijak
+718,dolgo in kratko,2d,5.3,
+719,kratko,2d in 3d,2.86,student in dijak
+720,kratko,2d,1.19,student
+721,kratko,2d,9.76,
+722,dolgo in kratko,2d,5.81,dijak
+723,dolgo in kratko,2d,6.46,dijak
+724,kratko,2d in 3d,6.38,
+725,dolgo in kratko,2d,7.85,dijak
+726,dolgo in kratko,2d,1.55,
+727,kratko,2d in 3d,7.07,dijak
+728,dolgo in kratko,2d,5.7,student in dijak
+729,kratko,2d in 3d,8.27,upokojenec
+730,kratko,2d in 3d,6.67,upokojenec
+731,kratko,2d,2.9,student in dijak
+732,kratko,2d,4.19,student in upokojenec
+733,kratko,2d,6.43,
+734,kratko,2d in 3d,4.99,
+735,kratko,2d in 3d,4.83,student
+736,kratko,2d in 3d,8.52,
+737,kratko,2d in 3d,3.05,
+738,kratko,2d in 3d,9.48,dijak
+739,kratko,2d,4.5,student in dijak
+740,dolgo in kratko,2d in 3d,9.24,dijak
+741,kratko,2d in 3d,9.25,
+742,kratko,2d in 3d,9.27,
+743,kratko,2d,8.43,
+744,dolgo in kratko,2d in 3d,2.42,dijak in upokojenjec
+745,dolgo in kratko,2d,3.87,student
+746,kratko,2d in 3d,1.03,dijak in upokojenec in student
+747,dolgo in kratko,2d,2.36,
+748,dolgo in kratko,2d,9.87,
+749,kratko,2d,1.36,student in upokojenec
+750,kratko,2d in 3d,3.65,student in upokojenec
+751,kratko,2d in 3d,4.04,
+752,dolgo in kratko,2d,4.04,
+753,dolgo in kratko,2d in 3d,9.03,student
+754,dolgo in kratko,2d,9.17,
+755,kratko,2d in 3d,3.97,student in upokojenec
+756,kratko,2d in 3d,5.04,student in dijak
+757,dolgo in kratko,2d in 3d,1.36,
+758,kratko,2d in 3d,2.88,
+759,kratko,2d,7.6,
+760,dolgo in kratko,2d,5.01,
+761,kratko,2d in 3d,5.62,student
+762,kratko,2d,4.06,upokojenec
+763,kratko,2d in 3d,7.09,upokojenec
+764,kratko,2d in 3d,2.5,upokojenec
+765,kratko,2d in 3d,7.42,upokojenec
+766,dolgo in kratko,2d in 3d,5.79,student
+767,dolgo in kratko,2d in 3d,5.62,
+768,dolgo in kratko,2d in 3d,3.29,
+769,kratko,2d in 3d,2.6,dijak
+770,dolgo in kratko,2d,5.57,
+771,kratko,2d in 3d,9.64,dijak in upokojenec in student
+772,dolgo in kratko,2d,8.41,
+773,kratko,2d,1.75,student in dijak
+774,dolgo in kratko,2d,5.44,student
+775,kratko,2d in 3d,1.26,
+776,kratko,2d in 3d,1.69,student in upokojenec
+777,kratko,2d in 3d,2.4,upokojenec
+778,dolgo in kratko,2d,9.4,dijak in upokojenjec
+779,dolgo in kratko,2d in 3d,3.77,student in dijak
+780,kratko,2d,3.24,
+781,kratko,2d,7.36,dijak in upokojenec in student
+782,dolgo in kratko,2d in 3d,7.81,
+783,dolgo in kratko,2d,2.51,
+784,kratko,2d,2.65,upokojenec
+785,kratko,2d,7.45,
+786,kratko,2d in 3d,3.3,student in dijak
+787,dolgo in kratko,2d,3.68,dijak in upokojenec in student
+788,kratko,2d in 3d,3.14,student in upokojenec
+789,dolgo in kratko,2d,2.35,
+790,dolgo in kratko,2d in 3d,7.05,
+791,dolgo in kratko,2d in 3d,8.85,upokojenec
+792,dolgo in kratko,2d in 3d,1.8,
+793,dolgo in kratko,2d,4.33,student in dijak
+794,dolgo in kratko,2d,4.38,
+795,dolgo in kratko,2d,1.52,
+796,kratko,2d in 3d,8.53,
+797,kratko,2d in 3d,7.93,upokojenec
+798,kratko,2d,7.28,upokojenec
+799,kratko,2d in 3d,4.16,
+800,kratko,2d,5.98,
+801,kratko,2d,6.25,dijak in upokojenec in student
+802,kratko,2d,6.71,dijak in upokojenjec
+803,kratko,2d,1.66,dijak in upokojenjec
+804,kratko,2d in 3d,9.23,
+805,kratko,2d,8.65,
+806,kratko,2d in 3d,2.96,
+807,kratko,2d in 3d,2.1,
+808,dolgo in kratko,2d,9.94,student in dijak
+809,dolgo in kratko,2d,1.48,
+810,kratko,2d,4.14,student
+811,kratko,2d,2.97,dijak in upokojenec in student
+812,kratko,2d,3.15,
+813,kratko,2d,3.41,dijak in upokojenjec
+814,dolgo in kratko,2d,8.66,dijak in upokojenec in student
+815,dolgo in kratko,2d in 3d,3.96,dijak in upokojenec in student
+816,kratko,2d in 3d,3.95,
+817,dolgo in kratko,2d in 3d,8.88,dijak
+818,dolgo in kratko,2d,2.31,student in dijak
+819,kratko,2d in 3d,7.95,student
+820,kratko,2d,2.75,
+821,dolgo in kratko,2d in 3d,1.93,dijak
+822,dolgo in kratko,2d,1.8,upokojenec
+823,kratko,2d,6.39,
+824,kratko,2d,5.46,dijak
+825,dolgo in kratko,2d in 3d,5.28,student in dijak
+826,dolgo in kratko,2d,8.51,
+827,dolgo in kratko,2d,7.91,student in dijak
+828,kratko,2d,3.4,
+829,dolgo in kratko,2d,6.6,student in dijak
+830,dolgo in kratko,2d in 3d,8.75,dijak in upokojenec in student
+831,dolgo in kratko,2d in 3d,3.12,
+832,kratko,2d,3.81,
+833,dolgo in kratko,2d in 3d,3.4,
+834,dolgo in kratko,2d,5.01,
+835,kratko,2d,2.39,student
+836,kratko,2d in 3d,2.94,
+837,dolgo in kratko,2d in 3d,8.8,dijak in upokojenec in student
+838,dolgo in kratko,2d,3.59,dijak
+839,kratko,2d in 3d,4.34,
+840,kratko,2d in 3d,8.13,
+841,kratko,2d in 3d,9.64,dijak in upokojenjec
+842,kratko,2d in 3d,2.56,
+843,kratko,2d,5.71,
+844,dolgo in kratko,2d,5.61,
+845,dolgo in kratko,2d,8.73,
+846,kratko,2d,8.29,student in dijak
+847,kratko,2d in 3d,3.39,
+848,dolgo in kratko,2d in 3d,2.1,dijak
+849,kratko,2d,3.81,
+850,dolgo in kratko,2d,4.95,
+851,kratko,2d,9.16,
+852,dolgo in kratko,2d in 3d,5.8,dijak in upokojenjec
+853,kratko,2d,4.62,dijak in upokojenjec
+854,kratko,2d,9.16,
+855,dolgo in kratko,2d,9.87,student
+856,kratko,2d in 3d,6.56,
+857,kratko,2d,2.95,
+858,kratko,2d in 3d,8.51,upokojenec
+859,dolgo in kratko,2d,1.4,
+860,dolgo in kratko,2d in 3d,2.82,
+861,dolgo in kratko,2d,6.47,dijak in upokojenec in student
+862,dolgo in kratko,2d,7.69,dijak in upokojenjec
+863,dolgo in kratko,2d in 3d,7.43,
+864,dolgo in kratko,2d,7.09,student in dijak
+865,kratko,2d in 3d,1.46,
+866,kratko,2d in 3d,6.95,student in upokojenec
+867,dolgo in kratko,2d in 3d,7.16,
+868,kratko,2d,5.55,dijak in upokojenjec
+869,dolgo in kratko,2d in 3d,4.81,
+870,dolgo in kratko,2d in 3d,4.79,
+871,dolgo in kratko,2d,6.98,
+872,dolgo in kratko,2d in 3d,5.39,
+873,dolgo in kratko,2d,8.69,student in upokojenec
+874,dolgo in kratko,2d,7.26,
+875,dolgo in kratko,2d,1.85,
+876,dolgo in kratko,2d in 3d,5.09,student
+877,dolgo in kratko,2d,4.52,
+878,dolgo in kratko,2d in 3d,6.86,
+879,dolgo in kratko,2d,6.49,upokojenec
+880,dolgo in kratko,2d in 3d,7.33,dijak in upokojenjec
+881,dolgo in kratko,2d in 3d,2.89,student
+882,kratko,2d in 3d,4.22,
+883,kratko,2d,3.09,student in dijak
+884,kratko,2d in 3d,9.35,student in dijak
+885,kratko,2d in 3d,8.23,dijak in upokojenec in student
+886,dolgo in kratko,2d,1.28,
+887,kratko,2d,9.23,
+888,kratko,2d in 3d,9.56,
+889,dolgo in kratko,2d in 3d,2.48,
+890,dolgo in kratko,2d in 3d,5.66,dijak
+891,dolgo in kratko,2d in 3d,7.75,dijak
+892,kratko,2d in 3d,2.37,student in upokojenec
+893,kratko,2d,1.99,dijak
+894,dolgo in kratko,2d in 3d,3.19,dijak in upokojenec in student
+895,kratko,2d,4.11,dijak
+896,dolgo in kratko,2d in 3d,4.57,
+897,kratko,2d,7.94,
+898,kratko,2d in 3d,2.63,student
+899,dolgo in kratko,2d,3.9,
+900,kratko,2d in 3d,9.66,dijak in upokojenec in student
+901,dolgo in kratko,2d in 3d,4.55,
+902,kratko,2d,8.21,
+903,dolgo in kratko,2d in 3d,9.54,
+904,kratko,2d in 3d,2.48,
+905,dolgo in kratko,2d,2.02,upokojenec
+906,kratko,2d in 3d,1.96,
+907,kratko,2d in 3d,9.48,
+908,dolgo in kratko,2d,6.84,student
+909,dolgo in kratko,2d in 3d,4.8,upokojenec
+910,kratko,2d in 3d,1.16,dijak in upokojenjec
+911,dolgo in kratko,2d,4.76,student in dijak
+912,dolgo in kratko,2d,9.63,student in upokojenec
+913,kratko,2d,5.85,student in dijak
+914,kratko,2d,7.44,
+915,kratko,2d,3.39,student in dijak
+916,dolgo in kratko,2d in 3d,5.14,dijak in upokojenjec
+917,dolgo in kratko,2d in 3d,9.75,upokojenec
+918,dolgo in kratko,2d,4.85,student in dijak
+919,dolgo in kratko,2d,4.21,dijak
+920,kratko,2d,1.2,
+921,dolgo in kratko,2d,7.22,
+922,kratko,2d in 3d,2.7,
+923,dolgo in kratko,2d,2.03,
+924,kratko,2d,6.83,student in upokojenec
+925,kratko,2d in 3d,1.92,student in dijak
+926,kratko,2d,7.09,
+927,kratko,2d,1.04,student
+928,dolgo in kratko,2d in 3d,5.68,upokojenec
+929,kratko,2d in 3d,3.24,
+930,dolgo in kratko,2d,7.89,dijak in upokojenec in student
+931,kratko,2d in 3d,5.61,dijak
+932,dolgo in kratko,2d,6.53,
+933,kratko,2d,6.07,
+934,dolgo in kratko,2d in 3d,7.87,student in dijak
+935,dolgo in kratko,2d,8.31,
+936,dolgo in kratko,2d in 3d,8.76,student in upokojenec
+937,dolgo in kratko,2d,3.31,
+938,dolgo in kratko,2d in 3d,1.64,dijak in upokojenjec
+939,kratko,2d,1.7,upokojenec
+940,kratko,2d in 3d,9.82,
+941,dolgo in kratko,2d,3.98,
+942,dolgo in kratko,2d,2.48,
+943,kratko,2d,6.63,dijak in upokojenec in student
+944,kratko,2d in 3d,6.19,dijak in upokojenec in student
+945,kratko,2d,3.66,
+946,kratko,2d in 3d,7.49,student
+947,dolgo in kratko,2d,9.57,dijak in upokojenec in student
+948,kratko,2d,9.86,student in dijak
+949,kratko,2d in 3d,1.48,
+950,dolgo in kratko,2d,5.15,student in upokojenec
+951,dolgo in kratko,2d in 3d,7.2,
+952,dolgo in kratko,2d in 3d,4.96,student in upokojenec
+953,dolgo in kratko,2d in 3d,1.1,dijak in upokojenjec
+954,dolgo in kratko,2d,6.52,student
+955,kratko,2d,9.17,
+956,dolgo in kratko,2d,6.77,upokojenec
+957,dolgo in kratko,2d,7.39,upokojenec
+958,dolgo in kratko,2d,4.02,
+959,dolgo in kratko,2d in 3d,6.27,
+960,dolgo in kratko,2d in 3d,9.1,student in dijak
+961,dolgo in kratko,2d in 3d,3.24,
+962,dolgo in kratko,2d,7.93,student in dijak
+963,dolgo in kratko,2d in 3d,5.83,student
+964,kratko,2d,7.68,
+965,dolgo in kratko,2d,9.64,
+966,kratko,2d,5.51,dijak
+967,kratko,2d in 3d,2.47,upokojenec
+968,kratko,2d,6.73,
+969,kratko,2d,2.35,dijak in upokojenec in student
+970,dolgo in kratko,2d,2.65,dijak
+971,kratko,2d,7.8,student in dijak
+972,dolgo in kratko,2d,1.11,dijak
+973,kratko,2d,4.78,dijak
+974,dolgo in kratko,2d in 3d,1.75,dijak in upokojenjec
+975,kratko,2d,7.33,
+976,dolgo in kratko,2d,9.75,
+977,kratko,2d in 3d,3.82,
+978,kratko,2d,1.78,student
+979,kratko,2d in 3d,3.72,
+980,kratko,2d in 3d,4.46,student in upokojenec
+981,dolgo in kratko,2d in 3d,2.24,
+982,kratko,2d in 3d,8.59,
+983,dolgo in kratko,2d in 3d,8.57,dijak
+984,dolgo in kratko,2d,5.26,upokojenec
+985,dolgo in kratko,2d,8.62,
+986,kratko,2d,5.29,
+987,kratko,2d in 3d,3.13,dijak in upokojenjec
+988,dolgo in kratko,2d in 3d,8.5,student in dijak
+989,kratko,2d in 3d,1.68,student in upokojenec
+990,kratko,2d in 3d,8.39,student
+991,kratko,2d,7.95,
+992,dolgo in kratko,2d,2.96,
+993,kratko,2d in 3d,4.25,upokojenec
+994,dolgo in kratko,2d,8.7,student in upokojenec
+995,dolgo in kratko,2d,9.53,
+996,dolgo in kratko,2d in 3d,2.28,dijak in upokojenec in student
+997,dolgo in kratko,2d in 3d,8.77,
+998,kratko,2d,2.01,
+999,kratko,2d,3.33,
+1000,kratko,2d in 3d,2.34,
