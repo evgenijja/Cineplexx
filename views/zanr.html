@@ -1,0 +1,12 @@
+﻿%rebase('osnova.html', naslov='Žanri')
+
+  <table cellpadding="0" cellspacing="0" border="1">
+  <tr>
+     <th>Ime žanra</th>
+  </tr>
+  %for (ime) in zanr:
+    <tr>
+       <td>{{ime}}</td>
+    </tr>
+  %end
+  </table>

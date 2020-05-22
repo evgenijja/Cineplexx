@@ -1,10 +1,10 @@
-%rebase('osnova.html', naslov='Naše dvorane')
+﻿%rebase('osnova.html', naslov='Naše dvorane')
 
   <table cellpadding="0" cellspacing="0" border="1">
   <tr>
-     <th>Številka dvorane</th>
+     <th>Številka</th>
      <th>Kapaciteta</th>
-     <th>V katerem kinu sploh je</th>
+     <th>Ime kina</th>
   </tr>
   %for (stevilka, kapaciteta, kino_ime) in dvorana:
     <tr>
@@ -14,3 +14,4 @@
     </tr>
   %end
   </table>
+
