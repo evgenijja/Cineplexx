@@ -1,0 +1,86 @@
+﻿<html>
+
+%rebase('osnova2.html', naslov='Naše dvorane')
+
+
+<div class="container-responsive row">
+   <div class="col-sm-1">
+      <p></p> <!--s tem dodam plac na začetku-->
+   </div>
+
+   <link rel="stylesheet" href="style.css">
+
+   <div class="card">
+      <div class="card-body">
+         <div class="table-wrapper">
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Išči po kinotih..">
+      
+            <!--tle bi blo spet hudo met možnost vtipkat kok kapacitete hočemo in bi ti vrglo ven tiste ki majo kvečemu več-->
+
+
+<div id="table" class="table table-editable table-sortable col-sm-12">
+      
+   <table class="table table-bordered table-hover table-sm table-responsive" cellspacing="0" width="100%">
+      <thead class="grey lighten-2">
+         <tr>
+     <th class="text-center">Številka</th>
+     <th class="text-center">Kapaciteta</th>
+     <th class="text-center">Ime kina</th>
+  </tr>
+</thead>
+<tbody>
+
+  %for (stevilka, kapaciteta, kino_ime) in dvorana:
+    <tr class="hide">
+       <td class="pt-3-half">{{stevilka}}</td>
+       <td class="pt-3-half">{{kapaciteta}}</td>
+       <td class="pt-3-half">{{kino_ime}}</td>
+    </tr>
+  %end
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-sortable.js"></script>
+
+<!--javascript za search-->
+<!--ce hoces spremenit po kerem stolpcu išče spremeni [0]-->
+
+<script>
+   function myFunction() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("table");
+      tr = table.getElementsByTagName("tr");
+    
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[2];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+    }
+    </script>
+
+</html>
+

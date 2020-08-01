@@ -1,0 +1,415 @@
+%rebase('osnova2.html', naslov='Kupljene karte')
+
+<!--lalal-->
+<div class="container-responsive row">
+   <div class="col-sm-1">
+      <p></p> <!--s tem dodam plac na začetku-->
+   </div>
+
+
+   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.1/css/bootstrap.min.css">
+   --><link rel="stylesheet" href="style.css">
+
+
+
+<div class="card">
+   <div class="card-body">
+      <div class="table-wrapper">
+
+         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Išči po idjih..">
+         <a href="karte/karte2d" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2D</a>
+         <a href="karte/karte3d" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">3D</a>
+         <p><button onclick="sortTable()">Sort</button></p>
+
+
+ <!--table-responsive table-wrapper-scroll-y my-custom-scrollbar-->
+   <div id="table" class="table table-editable table-sortable col-sm-12">
+      
+      <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i
+         class="fas fa-plus fa-2x" aria-hidden="true"></i></a></span>
+   
+   <table class="table table-bordered table-hover table-sm table-responsive" cellspacing="0" width="100%">
+      <thead class="grey lighten-2">
+         <tr>
+     
+         <!--<th class="th-sm">-->
+         <!--<th class="text-center">-->
+            <th class="text-center">Id</th>
+            <th class="text-center">Trajanje</th>
+            <th class="text-center">Tehnologija</th>
+            <th class="text-center">Osnovna cena</th>
+            <th class="text-center">Popust</th>
+            <th class="text-center" onclick="sortTable(5)">Ime kina</th>
+     
+
+         </tr>
+      </thead>
+      <tbody>
+
+
+         %for (id, trajanje, tehnologija, osnovna_cena, popust, kino_ime) in karta:
+         
+         
+         <tr class="hide">
+            
+
+      <!-- možnost kljukic pri id-->
+        <!-- <td>
+            <div class="form-check">
+               <input type="checkbox" class="form-check-input" id="materialUnchecked">
+               <label class="form-check-label" for="materialUnchecked">{{id}}</label>
+            </div>
+         </td>-->
+
+<!--dodej gumb use pregledano?-->
+            <td class="pt-3-half" contenteditable="true">{{id}}</td>
+            <td class="pt-3-half" contenteditable="true">{{trajanje}}</td>
+            <td class="pt-3-half" contenteditable="true">{{tehnologija}}</td>
+            <td class="pt-3-half" contenteditable="true">{{osnovna_cena}}</td>
+            <td class="pt-3-half" contenteditable="true">{{popust}}</td>
+
+            <td class="pt-3-half" contenteditable="false"><a href="{{ROOT}}kinoti">{{kino_ime}}</a></td>
+
+            <td class="pt-3-half">
+               <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up"
+                  aria-hidden="true"></i></a></span>
+            <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down"
+                  aria-hidden="true"></i></a></span>
+            </td>
+
+            <td>
+               <span class="table-remove"><button type="button"
+                   class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+             </td>
+
+         </tr>
+      %end
+      </tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!--desna stran-->
+
+<div class="container-responsive col-sm-2">
+   
+           <h5 class="bold">Pokaži le</h5>
+           <div class="btn-group">
+               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Scrollable Menu <span class="caret"></span></button>
+               <ul class="dropdown-menu scrollable-menu" role="menu">
+                   <li><a href="localhost:8080/karte/karte2d">2D</a></li>
+                   <li><a href="#">3D</a></li>
+                   <li><a href="#">dražje od 5€</a></li>
+                   <li><a href="#">cenejše od 5€</a></li>
+               </ul>
+           </div>
+ 
+
+ </div>
+
+
+
+</div>
+
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+<script src="{{ROOT}}static/tabele.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="{{ROOT}}static/js/bootstrap.min.js"></script>
+-->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-sortable.js"></script>
+
+
+<!--
+<script type="text/javascript" src="tabele.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+<script type="text/javascript" src="search.js"></script>
+
+<script type="text/javascript" src="sort.js"></script>
+-->
+
+<!--javascript za remove, add-->
+<script>
+src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+
+const $tableID = $('#table');
+ const $BTN = $('#export-btn');
+ const $EXPORT = $('#export');
+
+ const newTr = `
+<tr class="hide">
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half">
+    <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a></span>
+    <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a></span>
+  </td>
+  <td>
+    <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0 waves-effect waves-light">Remove</button></span>
+  </td>
+</tr>`;
+
+ $('.table-add').on('click', 'i', () => {
+
+   const $clone = $tableID.find('tbody tr').last().clone(true).removeClass('hide table-line');
+
+   if ($tableID.find('tbody tr').length === 0) {
+
+     $('tbody').append(newTr);
+   }
+
+   $tableID.find('table').append($clone);
+ });
+
+ $tableID.on('click', '.table-remove', function () {
+
+   $(this).parents('tr').detach();
+ });
+
+ $tableID.on('click', '.table-up', function () {
+
+   const $row = $(this).parents('tr');
+
+   if ($row.index() === 0) {
+     return;
+   }
+
+   $row.prev().before($row.get(0));
+ });
+
+ $tableID.on('click', '.table-down', function () {
+
+   const $row = $(this).parents('tr');
+   $row.next().after($row.get(0));
+ });
+
+ // A few jQuery helpers for exporting only
+ jQuery.fn.pop = [].pop;
+ jQuery.fn.shift = [].shift;
+
+ $BTN.on('click', () => {
+
+   const $rows = $tableID.find('tr:not(:hidden)');
+   const headers = [];
+   const data = [];
+
+   // Get the headers (add special header logic here)
+   $($rows.shift()).find('th:not(:empty)').each(function () {
+
+     headers.push($(this).text().toLowerCase());
+   });
+
+   // Turn all existing rows into a loopable array
+   $rows.each(function () {
+     const $td = $(this).find('td');
+     const h = {};
+
+     // Use the headers from earlier to name our hash keys
+     headers.forEach((header, i) => {
+
+       h[header] = $td.eq(i).text();
+     });
+
+     data.push(h);
+   });
+
+   // Output the result
+   $EXPORT.text(JSON.stringify(data));
+ });
+
+ $tableID.on('click', '.table-remove', function () {
+
+   (this).parents('tr').detach();
+ });
+
+ $tableID.on('click', '.table-up', function () {
+
+   const $row = $(this).parents('tr');
+
+   if ($row.index() === 0) {
+     return;
+   }
+
+   $row.prev().before($row.get(0));
+ });
+
+ $tableID.on('click', '.table-down', function () {
+
+   const $row = $(this).parents('tr');
+   $row.next().after($row.get(0));
+ });
+
+ // A few jQuery helpers for exporting only
+ jQuery.fn.pop = [].pop;
+ jQuery.fn.shift = [].shift;
+
+ $BTN.on('click', () => {
+
+   const $rows = $tableID.find('tr:not(:hidden)');
+   const headers = [];
+   const data = [];
+
+   // Get the headers (add special header logic here)
+   $($rows.shift()).find('th:not(:empty)').each(function () {
+
+     headers.push($(this).text().toLowerCase());
+   });
+
+   // Turn all existing rows into a loopable array
+   $rows.each(function () {
+     const $td = $(this).find('td');
+     const h = {};
+
+     // Use the headers from earlier to name our hash keys
+     headers.forEach((header, i) => {
+
+       h[header] = $td.eq(i).text();
+     });
+
+     data.push(h);
+   });
+
+   // Output the result
+   $EXPORT.text(JSON.stringify(data));
+ });  
+
+ function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}</script>
+
+<!--javascript za search-->
+<!--ce hoces spremenit po kerem stolpcu išče spremeni [0]-->
+
+<script>
+function myFunction() {
+   // Declare variables
+   var input, filter, table, tr, td, i, txtValue;
+   input = document.getElementById("myInput");
+   filter = input.value.toUpperCase();
+   table = document.getElementById("table");
+   tr = table.getElementsByTagName("tr");
+ 
+   // Loop through all table rows, and hide those who don't match the search query
+   for (i = 0; i < tr.length; i++) {
+     td = tr[i].getElementsByTagName("td")[0];
+     if (td) {
+       txtValue = td.textContent || td.innerText;
+       if (txtValue.toUpperCase().indexOf(filter) > -1) {
+         tr[i].style.display = "";
+       } else {
+         tr[i].style.display = "none";
+       }
+     }
+   }
+ }
+ </script>
+
+ <!--javascript za sortiranje po abecedi-->
+ <script>
+    function sortTable() {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("table");
+    switching = true;
+    // Set the sorting direction to ascending:
+    dir = "asc";
+    /* Make a loop that will continue until
+    no switching has been done: */
+    while (switching) {
+      // Start by saying: no switching is done:
+      switching = false;
+      rows = table.rows;
+      /* Loop through all table rows (except the
+      first, which contains table headers): */
+      for (i = 1; i < (rows.length - 1); i++) {
+        // Start by saying there should be no switching:
+        shouldSwitch = false;
+        /* Get the two elements you want to compare,
+        one from current row and one from the next: */
+        x = rows[i].getElementsByTagName("TD")[3];
+        y = rows[i + 1].getElementsByTagName("TD")[3];
+        /* Check if the two rows should switch place,
+        based on the direction, asc or desc: */
+        if (dir == "asc") {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else if (dir == "desc") {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+        /* If a switch has been marked, make the switch
+        and mark that a switch has been done: */
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        // Each time a switch is done, increase this count by 1:
+        switchcount ++;
+      } else {
+        /* If no switching has been done AND the direction is "asc",
+        set the direction to "desc" and run the while loop again. */
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+   }
+  
+ </script>
+
+
+<!--javascript za sortiranje-->
+

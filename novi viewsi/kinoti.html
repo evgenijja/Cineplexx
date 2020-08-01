@@ -1,0 +1,39 @@
+%rebase('osnova2.html', naslov='Usi naši kinoti')
+
+<div class="container-responsive row">
+   <div class="col-sm-1">
+      <p></p> <!--s tem dodam plac na začetku-->
+   </div>
+
+   <link rel="stylesheet" href="style.css">
+
+   <div class="card">
+      <div class="card-body">
+         <div class="table-wrapper">
+
+   
+    <!--table-responsive table-wrapper-scroll-y my-custom-scrollbar-->
+      <div id="table" class="table table-editable table-sortable col-sm-12">
+         
+         <table class="table table-bordered table-hover table-sm table-responsive" cellspacing="0" width="100%">
+            <thead class="grey lighten-2">
+  <tr>
+     <th>ime</th>
+     <th>kraj</th>
+  </tr>
+</thead>
+<tbody>
+
+  %for (ime, kraj) in kino:
+    <tr>
+       <td>{{ime}}</td>
+       <td>{{kraj}}</td>
+    </tr>
+  %end
+</tbody>
+</div>
+</div>
+</div>
+</div>
+
+
