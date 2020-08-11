@@ -1,0 +1,111 @@
+﻿<!---->
+
+<!--%rebase('osnova2.html', naslov='Filmi, ki jih predvajamo')-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cineplexx kinematografi</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="{{ROOT}}static/css/bootstrap.min.css">
+	<link href="{{ROOT}}static/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="{{ROOT}}static/img/logo6.PNG"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ROOT}}zacetna_stran">Domov</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ROOT}}film">Filmi</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="{{ROOT}}prijava">Prijava</a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+</nav>
+
+<div class="row col-1"></div>
+<div class="row">
+  <div class="col-1">
+     <p></p> <!--s tem dodam plac na začetku-->
+  </div>
+  <div><h4>Žanri</h4></div>
+</div>
+
+
+<div class="container-responsive row">
+   <div class="col-sm-1">
+      <p></p> <!--s tem dodam plac na začetku-->
+   </div>
+   <link rel="stylesheet" href="style.css">
+
+   <div class="card">
+      <div class="card-body">
+         <div class="table-wrapper">
+   
+   
+    <!--table-responsive table-wrapper-scroll-y my-custom-scrollbar-->
+      <div id="table" class="table table-editable table-sortable col-sm-12">
+         
+         <table class="table table-bordered table-hover table-sm table-responsive" cellspacing="0" width="100%">
+            <thead class="grey lighten-2">
+  <tr>
+     <th class="text-center">Ime žanra</th>
+  </tr>
+</thead>
+<tbody>
+  %for (ime) in zanr:
+    <tr class="hide">
+       <td class="pt-3-half">{{ime}}</td>
+    </tr>
+  %end
+</tbody>
+  </table>
+</div>
+</div>
+</div>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+  <script type="text/javascript" src="js/moment.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-sortable.js"></script>
+  
+
+  </div>
+  </body>
+</html>

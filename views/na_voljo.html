@@ -1,0 +1,156 @@
+<!---->
+
+<!--%rebase('osnova2.html', naslov='Filmi, ki jih predvajamo')-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cineplexx kinematografi</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="{{ROOT}}static/css/bootstrap.min.css">
+	<link href="{{ROOT}}static/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="{{ROOT}}static/img/logo6.PNG"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ROOT}}zacetna_stran">Domov</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ROOT}}film">Filmi</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="{{ROOT}}prijava">Prijava</a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+</nav>
+
+<div class="row col-1"></div>
+<div class="row">
+  <div class="col-1">
+     <p></p> <!--s tem dodam plac na začetku-->
+  </div>
+  <div><h4>Prigrizki, ki so na voljo</h4></div>
+</div>
+
+<div class="container-responsive row">
+  <div class="col-sm-1">
+     <p></p> <!--s tem dodam plac na začetku-->
+  </div>
+
+<link rel="stylesheet" href="style.css">
+
+<div class="card">
+  <div class="card-body">
+     <div class="table-wrapper">
+
+<!--
+<p>
+  <a href="{{ROOT}}prigrizek1/2">Poceni prigrizki</a>
+</p>
+
+<p>
+  <a href="{{ROOT}}prigrizek2/4">Dragi prigrizki</a>
+</p>
+-->
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Išči po imenu kinota..">
+<a href="prigrizek1/2" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Super poceni prigrizki</a>
+<a href="prigrizek1/4" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Malo dražji prigrizki</a>
+                 
+
+<div id="table" class="table table-editable table-sortable col-sm-12">
+      
+<table class="table table-bordered table-hover table-sm table-responsive" cellspacing="0" width="100%">
+  <thead class="grey lighten-2">
+     <tr>
+     <th class="text-center">Ime kina</th>
+     <th class="text-center"h>Ime prigrizka</th>
+  </tr>
+</thead>
+<tbody>
+
+  %for (kino_ime, prigrizek_ime) in na_voljo:
+    <tr class="hide">
+       <td class="pt-3-half">{{kino_ime}}</td>
+       <td class="pt-3-half">{{prigrizek_ime}}</td>
+    </tr>
+  %end
+</tbody>
+  </table>
+
+  
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-sortable.js"></script>
+
+
+<!--javascript za search-->
+<!--ce hoces spremenit po kerem stolpcu išče spremeni [0]-->
+
+<script>
+  function myFunction() {
+     // Declare variables
+     var input, filter, table, tr, td, i, txtValue;
+     input = document.getElementById("myInput");
+     filter = input.value.toUpperCase();
+     table = document.getElementById("table");
+     tr = table.getElementsByTagName("tr");
+   
+     // Loop through all table rows, and hide those who don't match the search query
+     for (i = 0; i < tr.length; i++) {
+       td = tr[i].getElementsByTagName("td")[1];
+       if (td) {
+         txtValue = td.textContent || td.innerText;
+         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+           tr[i].style.display = "";
+         } else {
+           tr[i].style.display = "none";
+         }
+       }
+     }
+   }
+   </script>
+
+   </div>
+   </body>
+   </html>
