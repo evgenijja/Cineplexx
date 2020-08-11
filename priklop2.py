@@ -204,4 +204,4 @@ cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 #
 # poženemo strežnik na podanih vratih, npr. http://localhost:8080/
 #run(host='localhost', port=SERVER_PORT, debug(True))
-run(host='localhost', port= SERVER_PORT)
+run(host='localhost', port= SERVER_PORT, reloader=RELOADER)
