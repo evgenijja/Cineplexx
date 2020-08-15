@@ -44,7 +44,7 @@ def index():
 
 @get('/zacetna_stran')
 def zacetna_get():  
-    return redirect('/')
+    return redirect(ROOT)
 
 @get('/zacetna_stran2')
 def zacetna_get():  
