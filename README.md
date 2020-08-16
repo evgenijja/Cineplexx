@@ -6,4 +6,4 @@ Projekt pri OPB
 
 ![ER shema](ERshema.png)
 
-![ER](novaER.pnd)
+![ER](novaER.pdf)
