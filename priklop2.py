@@ -138,10 +138,10 @@ def zanr():
     cur.execute("SELECT * FROM zanr")
     return rtemplate('zanr.html', zanr=cur)
 
-#@get('/ima_zanr') 
-#def vrti():
- #   cur.execute("SELECT * FROM ima_zanr")
-  #  return rtemplate('ima_zanr.html', ima_zanr=cur)
+@get('/ima_zanr') 
+def vrti():
+    cur.execute("SELECT * FROM ima_zanr")
+    return rtemplate('ima_zanr.html', ima_zanr=cur)
 
 #@get('/ima_zanr') 
 #def vrti():
