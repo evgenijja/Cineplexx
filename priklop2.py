@@ -143,10 +143,10 @@ def zanr():
  #   cur.execute("SELECT * FROM ima_zanr")
   #  return rtemplate('ima_zanr.html', ima_zanr=cur)
 
-@get('/ima_zanr') 
-def vrti():
-    cur.execute("SELECT * FROM ima_zanr a LEFT JOIN (SELECT id, naslov FROM film) b ON a.film_id = b.id ")
-    return rtemplate('ima_zanr.html', ima_zanr=cur)
+#@get('/ima_zanr') 
+#def vrti():
+ #   cur.execute("SELECT * FROM ima_zanr a LEFT JOIN (SELECT id, naslov FROM film) b ON a.film_id = b.id ")
+  #  return rtemplate('ima_zanr.html', ima_zanr=cur)
 
 #============================================= dodano ===================================================================
 
